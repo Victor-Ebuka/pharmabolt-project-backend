@@ -1,0 +1,27 @@
+{
+  "name": "pharmabolt-project-backend",
+  "version": "1.0.0",
+  "description": "## PharmaBolt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Ebuka/pharmabolt-project-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Victor-Ebuka/pharmabolt-project-backend/issues"
+  },
+  "homepage": "https://github.com/Victor-Ebuka/pharmabolt-project-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

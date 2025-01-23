@@ -1,0 +1,8 @@
+.vscode/
+.env
+kkkk.js
+node_modules/
+sql/
+nodemon.json
+db/us-east-1-bundle.pem
+postgres_backup.sql
