@@ -8,7 +8,7 @@ import Joi from "joi";
  * @property {number} price - The price of the drug. Must be a number.
  * @property {number} stock - The stock quantity of the drug. Must be a number.
  */
-const createDrugSchema = Joi.object({
+export const createDrugSchema = Joi.object({
   name: Joi.string().min(3).max(255).required(),
   description: Joi.string().min(5).required(),
   price: Joi.number().required(),
@@ -23,7 +23,7 @@ const createDrugSchema = Joi.object({
  * @property {number} [price] - The price of the drug. Optional, if provided it must be a number.
  * @property {number} [stock] - The stock quantity of the drug. Optional, if provided it must be a number.
  */
-const updateDrugSchema = Joi.object({
+export const updateDrugSchema = Joi.object({
   name: Joi.string().min(3).max(255),
   description: Joi.string().min(5),
   price: Joi.number(),

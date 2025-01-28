@@ -19,5 +19,5 @@ export const updateUserSchema = Joi.object({
   address: Joi.string().min(3).max(255),
   city: Joi.string().min(3).max(255),
   state: Joi.string().min(3).max(255),
-  role: Joi.string().valid("admin", "user"),
+  role: Joi.string().valid("user"),
 });
